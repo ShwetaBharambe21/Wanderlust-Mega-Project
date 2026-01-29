@@ -21,3 +21,4 @@ terraform.rc
 # Node
 node_modules/
 
+.terraform/
