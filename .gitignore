@@ -24,3 +24,5 @@ node_modules/
 .terraform/
 terraform/terra-key
 terraform/terra-key
+terraform/terra-key
+terraform/.terraform/
