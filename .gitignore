@@ -22,3 +22,4 @@ terraform.rc
 node_modules/
 
 .terraform/
+terraform/terra-key
