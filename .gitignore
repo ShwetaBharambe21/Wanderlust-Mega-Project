@@ -26,3 +26,7 @@ terraform/terra-key
 terraform/terra-key
 terraform/terra-key
 terraform/.terraform/
+terraform/terra-key
+terraform/*.pem
+terraform/*.key
+.terraform/
