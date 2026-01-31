@@ -1,9 +1,7 @@
 @Library('Shared') _
 pipeline {
     agent {label 'Node'}
-    
-    sonarqube_analysis("wanderlust","wanderlust")
-     
+         
     parameters {
         string(name: 'FRONTEND_DOCKER_TAG', defaultValue: '', description: 'Setting docker image for latest push')
         string(name: 'BACKEND_DOCKER_TAG', defaultValue: '', description: 'Setting docker image for latest push')
