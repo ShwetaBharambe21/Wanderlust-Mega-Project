@@ -2,10 +2,8 @@
 pipeline {
     agent {label 'Node'}
     
-    environment{
-        SONAR_HOME = tool "Sonar"
-    }
-    
+    sonarqube_analysis("wanderlust","wanderlust")
+     
     parameters {
         string(name: 'FRONTEND_DOCKER_TAG', defaultValue: '', description: 'Setting docker image for latest push')
         string(name: 'BACKEND_DOCKER_TAG', defaultValue: '', description: 'Setting docker image for latest push')
